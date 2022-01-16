@@ -10,7 +10,6 @@ class SinglePoint {
     }
 
     show() {
-        // stroke(0);
         fill(this.color);
         ellipse(this.x, this.y, 20, 20);
     }   

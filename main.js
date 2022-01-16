@@ -2,7 +2,6 @@ let numberOfPointsPerGroup = 15;
 let numberOfGroups = 3;
 let canvasSizePerGroup = 150;
 let canvasSize = numberOfGroups * canvasSizePerGroup;
-// let points = [];
 let points = [...Array(3)].map(e => Array(2));
 let groupsMap = [];
 let selectedGroups = [];
